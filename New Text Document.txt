@@ -1,0 +1,140 @@
+git steps
+
+git init
+
+git add .
+
+git branch -M main
+
+git remote add origin https://github.com/Ahmed-Saleh-007/branch_test.git
+
+git branch feature1
+
+git checkout feature1
+
+git add .
+
+git commit -m "text file"
+
+git checkout main
+
+git push -u origin main
+
+git branch -d feature1
+Deleted branch feature1 (was 9942cf4).
+
+git branch
+* main
+
+git log --graph
+
+*   commit 9e0778811e6a4037c5cea61dbfedff414fa4e6be (HEAD -> main, origin/main)
+|\  Merge: ba6fcff 1c15ea5
+| | Author: Ahmed-Saleh-007 <60320388+Ahmed-Saleh-007@users.noreply.github.com>
+| | Date:   Sun Jan 3 17:04:48 2021 +0200
+| |
+| |     Merge pull request #2 from Ahmed-Saleh-007/feature
+| |
+| |     Mahmoud Commit
+| |
+| * commit 1c15ea507c436df99609bdb04c71578274546ed7 (origin/feature)
+| | Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| | Date:   Sun Jan 3 16:59:16 2021 +0200
+*   commit 9e0778811e6a4037c5cea61dbfedff414fa4e6be (HEAD -> main, origin/main)
+|\  Merge: ba6fcff 1c15ea5
+| | Author: Ahmed-Saleh-007 <60320388+Ahmed-Saleh-007@users.noreply.github.com>
+| | Date:   Sun Jan 3 17:04:48 2021 +0200
+| |
+| |     Merge pull request #2 from Ahmed-Saleh-007/feature
+| |
+| |     Mahmoud Commit
+| |
+| * commit 1c15ea507c436df99609bdb04c71578274546ed7 (origin/feature)
+| | Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| | Date:   Sun Jan 3 16:59:16 2021 +0200
+*   commit 9e0778811e6a4037c5cea61dbfedff414fa4e6be (HEAD -> main, origin/main)
+|\  Merge: ba6fcff 1c15ea5
+| | Author: Ahmed-Saleh-007 <60320388+Ahmed-Saleh-007@users.noreply.github.com>
+| | Date:   Sun Jan 3 17:04:48 2021 +0200
+| |
+| |     Merge pull request #2 from Ahmed-Saleh-007/feature
+| |
+| |     Mahmoud Commit
+| |
+| * commit 1c15ea507c436df99609bdb04c71578274546ed7 (origin/feature)
+| | Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| | Date:   Sun Jan 3 16:59:16 2021 +0200
+| |
+| |     Mahmoud Commit
+| |
+* |   commit ba6fcffb45c8d8cfc1d74d4632a62950a41a9ab3
+|\ \  Merge: 9942cf4 af6484c
+| |/  Author: Ahmed-Saleh-007 <60320388+Ahmed-Saleh-007@users.noreply.github.com>
+|/|   Date:   Sun Jan 3 17:03:55 2021 +0200
+| |
+| |       Merge pull request #1 from Ahmed-Saleh-007/new-branch
+| |
+| |       added new message from mohammed
+| |
+| * commit af6484c1934e436c214638f3a019d2dd85a8a24b (origin/new-branch)
+|/  Author: mohamedegila <mohammedegila@gmail.com>
+|   Date:   Sun Jan 3 16:56:52 2021 +0200
+|
+|       added new message from mohammed
+|
+* commit 9942cf44f3d1e1ec664403a71f360433d0b5920b
+| Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+| Date:   Sun Jan 3 16:46:39 2021 +0200
+|
+|     text file
+|
+* commit b076e8c10123bacbce4916f97ada008758a3dace
+  Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+  Date:   Sun Jan 3 16:30:13 2021 +0200
+
+      index file
+
+
+git checkout feature
+
+git add .
+
+git checkout main
+
+git rebase feature
+
+
+git log --graph
+
+* commit 1071ebc8c356d6916c3607cf5f7c0e9df72b8cea (HEAD -> main)
+| Author: mohamedegila <mohammedegila@gmail.com>
+| Date:   Sun Jan 3 16:56:52 2021 +0200
+|
+|     added new message from mohammed
+|
+* commit fb99099b5fc67ae085b43d3081c0810d5c476e98 (feature)
+| Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+| Date:   Sun Jan 3 17:24:21 2021 +0200
+|
+|     edit mohamed file
+|
+* commit 1c15ea507c436df99609bdb04c71578274546ed7 (origin/feature)
+| Author: mahmoudm4 <mahmoudm4895@gmail.com>
+| Date:   Sun Jan 3 16:59:16 2021 +0200
+|
+|     Mahmoud Commit
+|
+* commit 9942cf44f3d1e1ec664403a71f360433d0b5920b
+| Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+| Date:   Sun Jan 3 16:46:39 2021 +0200
+|
+|     text file
+|
+* commit b076e8c10123bacbce4916f97ada008758a3dace
+  Author: Ahmed-Saleh-007 <a85851a@gmail.com>
+  Date:   Sun Jan 3 16:30:13 2021 +0200
+
+      index file
+
+
+
